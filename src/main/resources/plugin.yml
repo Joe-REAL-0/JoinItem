@@ -1,0 +1,14 @@
+name: JoinItem
+version: '${project.version}'
+main: code.joe.JoinItem
+api-version: '1.16'
+
+commands:
+    joinitem:
+        description: JoinItem command
+        usage: /<command> [reload]
+        aliases: [ji]
+        permission: joinitem.command
+        permission-message: You don't have permission to use this command.
+        tab-completions:
+        - reload

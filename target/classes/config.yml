@@ -1,0 +1,8 @@
+item: ItemID
+#这是物品的ID（使用英文名）
+name: ItemName
+#这是物品的名字（显示在游戏中）
+lore:
+  - line1
+  - line2
+#这是物品的描述（显示在游戏中）
